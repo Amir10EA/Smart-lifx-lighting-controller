@@ -38,23 +38,23 @@ The smart lighting system consists of several components that work together to a
    ```bash
    git clone https://github.com/Amir10EA/Smart-lifx-lighting-controller.git
 
-2. Set Up Raspberry Pi:
+2. **Set Up Raspberry Pi**:
   Install necessary Python libraries:
   ```bash
   pip install paho-mqtt adafruit-circuitpython-tsl2591 requests
 
-3. Run the Python Scripts:
-Start the MQTT publisher script:
-```bash
-python LuxPublisher2.py
-Start the script to control the LIFX lamp:
-```bash
-python LuxHandler.py
+3. **Run the Python Scripts**:
+   Start the MQTT publisher script:
+   ```bash
+   python LuxPublisher2.py
+   Start the script to control the LIFX lamp:
+   ```bash
+   python LuxHandler.py
 
-4. Set Up Android Application:
-Open the Android project in Android Studio.
-Connect an Android device or use an emulator.
-Build and run the application on the device.
+4. **Set Up Android Application**:
+   Open the Android project in Android Studio.
+   Connect an Android device or use an emulator.
+   Build and run the application on the device.
 
 ## Contributors
 - Amir Eihab El Abidou
